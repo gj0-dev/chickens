@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chickens</title>
+    <title>Soupy</title>
 </head>
 <body>
-    <h1>Chickens!</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate expedita deleniti sed suscipit mollitia consequuntur. Mollitia quas, aliquid iure ullam similique dicta alias facilis sunt? Recusandae ea nulla consectetur consequatur?</p>
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+      </svg>
 </body>
 </html>
